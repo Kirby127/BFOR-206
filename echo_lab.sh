@@ -28,3 +28,7 @@ do
 	echo "Number " $n "file is: " $i
 	let "n=n+1"
 done
+
+#Echo the number of files in the array
+numfiles=${#files[@]}
+printf "\nThere are  $numfiles files in this directory.\n"
